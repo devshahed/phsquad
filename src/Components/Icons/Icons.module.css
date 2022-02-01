@@ -1,0 +1,7 @@
+.icon{
+    fill: transparent;
+    stroke: white;
+}
+.icon:hover{
+    fill: white;
+}

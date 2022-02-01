@@ -1,0 +1,89 @@
+.post_card{
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 40px;
+    color: var(--theme_white);
+    background: rgba(0, 0, 0, 0.493);
+}
+.post_card_top{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.post_info{
+    display: flex;
+    align-items: center;
+}
+.author_img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 8px;
+}
+.author{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--theme_white);
+    display: block;
+}
+.category, .date{
+    font-size: 0.8rem;
+    color: var(--theme_white);
+    margin-right: 8px;
+}
+.three_dot{
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.post_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+}
+.post_title{
+    font-size: 1rem;
+}
+.post_desc{
+    font-size: 0.8rem;
+}
+.read_more{
+    cursor: pointer;
+    color: var(--theme_white);
+    font-weight: 600;
+}
+.post_img img{
+    width: 100%;
+    border-radius: 40px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.post_card_bottom{
+    display: flex;
+    flex-direction: column;
+}
+.counter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(179, 179, 179, 0.322);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.counter div{
+    cursor: pointer;
+}
+.rcs_box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+.reaction, .comments, .share{
+    cursor: pointer;
+}

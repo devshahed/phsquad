@@ -1,0 +1,7 @@
+#home .container{
+    display: flex;
+}
+/* #home{
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+} */
