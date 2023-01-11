@@ -5,6 +5,10 @@ import { ReactComponent as User } from "./assets/icons/User.svg";
 import { ReactComponent as Tools } from "./assets/icons/Tools.svg";
 import { ReactComponent as ThemeChanger } from "./assets/icons/Theme.svg";
 import { ReactComponent as Search } from "./assets/icons/Search.svg";
+import { ReactComponent as Settings } from "./assets/icons/Settings.svg";
+import { ReactComponent as Notification } from "./assets/icons/Notification.svg";
+import { ReactComponent as Profile } from "./assets/icons/Profile.svg";
+import { ReactComponent as Tags } from "./assets/icons/Tags.svg";
 
 const Icon = ({ name, fill }) => {
     switch (name) {
@@ -18,6 +22,14 @@ const Icon = ({ name, fill }) => {
             return <User fill={fill} />;
         case "theme":
             return <ThemeChanger fill={fill} />;
+        case "profile":
+            return <Profile fill={fill} />;
+        case "notification":
+            return <Notification fill={fill} />;
+        case "settings":
+            return <Settings fill={fill} />;
+        case "tags":
+            return <Tags fill={fill} />;
         case "search":
             return <Search fill={fill} />;
         default:

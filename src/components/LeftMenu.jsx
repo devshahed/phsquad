@@ -7,13 +7,13 @@ import styled from "styled-components";
 const Container = styled.div`
     display: flex;
     flex-direction: column;
-    font-size: 1rem;
     font-weight: 500;
     align-items: center;
     gap: 0.7rem;
     padding: 2rem 2rem 0 2rem;
     color: ${(props) => props.theme.color};
     position: sticky;
+    top: 0;
     overflow-y: scroll;
     flex: 1;
     a {
@@ -21,6 +21,7 @@ const Container = styled.div`
         border-radius: 1.2rem;
         width: 100%;
         text-align: center;
+        font-size: 1rem;
     }
     .active {
         color: ${(props) => props.theme.active};

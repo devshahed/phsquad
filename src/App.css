@@ -4,9 +4,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 body {
     font-family: "Popins", sans-serif;
+    letter-spacing: 0.08rem;
 }
 svg {
     cursor: pointer;
