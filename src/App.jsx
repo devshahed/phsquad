@@ -12,10 +12,11 @@ const Container = styled.div`
     flex-direction: column;
     height: 100vh;
     background: ${({ theme }) => theme.bg};
+    overflow: hidden;
 `;
 const Main = styled.main`
-    height: 100%;
     display: flex;
+    overflow-y: scroll;
     gap: 3rem;
 `;
 

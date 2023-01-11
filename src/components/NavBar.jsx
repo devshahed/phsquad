@@ -9,6 +9,8 @@ import Logo from "./Logo";
 
 //styles
 const Container = styled.nav`
+    position: sticky;
+    top: 0;
     background: ${(props) => props.theme.bg_secondary};
     display: flex;
     border-bottom: 1px solid #7777774c;

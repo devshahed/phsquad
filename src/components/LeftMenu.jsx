@@ -6,13 +6,15 @@ import styled from "styled-components";
 //styles
 const Container = styled.div`
     display: flex;
+    position: sticky;
+    top: 0;
     flex-direction: column;
     font-weight: 500;
     align-items: center;
     gap: 0.7rem;
     padding: 2rem 1rem 0 1rem;
     color: ${(props) => props.theme.color};
-    overflow-y: scroll;
+    overflow-y: auto;
     flex: 1;
     a {
         padding: 0.3rem;

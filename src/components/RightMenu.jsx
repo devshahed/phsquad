@@ -7,9 +7,11 @@ import { NavLink } from "react-router-dom";
 
 //styles
 const Container = styled.div`
+    position: sticky;
+    top: 0;
     padding: 2rem 1rem 0 1rem;
     flex: 1;
-    overflow-y: scroll;
+    overflow-y: auto;
 `;
 const SearchBox = styled.div`
     border-radius: 1.2rem;
@@ -34,6 +36,7 @@ const SearchBox = styled.div`
 `;
 const Menu = styled.div`
     display: flex;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
