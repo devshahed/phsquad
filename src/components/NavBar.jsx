@@ -11,8 +11,6 @@ import Logo from "./Logo";
 const Container = styled.nav`
     display: flex;
     padding: 0.7rem 1.2rem;
-    position: sticky;
-    top: 0;
     border-bottom: 1px solid #7777778b;
 `;
 const NavLeft = styled.div`

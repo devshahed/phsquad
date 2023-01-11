@@ -10,10 +10,8 @@ const Container = styled.div`
     font-weight: 500;
     align-items: center;
     gap: 0.7rem;
-    padding: 2rem 2rem 0 2rem;
+    padding: 2rem 1rem 0 1rem;
     color: ${(props) => props.theme.color};
-    position: sticky;
-    top: 0;
     overflow-y: scroll;
     flex: 1;
     a {

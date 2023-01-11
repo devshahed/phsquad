@@ -7,10 +7,8 @@ import { NavLink } from "react-router-dom";
 
 //styles
 const Container = styled.div`
-    padding: 2rem 2rem 0 2rem;
+    padding: 2rem 1rem 0 1rem;
     flex: 1;
-    position: sticky;
-    top: 0;
     overflow-y: scroll;
 `;
 const SearchBox = styled.div`
@@ -37,6 +35,8 @@ const SearchBox = styled.div`
 const Menu = styled.div`
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
     gap: 0.7rem;
     padding-top: 1rem;
@@ -49,6 +49,7 @@ const Menu = styled.div`
         display: flex;
         align-items: center;
         gap: 0.7rem;
+        text-align: center;
     }
     .active {
         color: ${(props) => props.theme.active};
