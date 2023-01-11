@@ -10,6 +10,7 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
     gap: 1.3rem;
+    padding-bottom: 1.2rem;
 `;
 const PostCard = styled.div`
     padding: 1.2rem;
