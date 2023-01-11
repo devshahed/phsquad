@@ -9,12 +9,14 @@ import Logo from "./Logo";
 
 //styles
 const Container = styled.nav`
+    background: ${(props) => props.theme.bg_secondary};
     display: flex;
-    padding: 0.7rem 1.2rem;
-    border-bottom: 1px solid #7777778b;
+    border-bottom: 1px solid #7777774c;
+    padding: 0 1.2rem;
 `;
 const NavLeft = styled.div`
     flex: 2;
+    padding: 0.7rem 0;
 `;
 const NavMiddle = styled.div`
     display: flex;

@@ -16,7 +16,7 @@ const Container = styled.div`
 const Main = styled.main`
     height: 100%;
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
 `;
 
 function App() {
