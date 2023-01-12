@@ -15,7 +15,7 @@ const Container = styled.nav`
     background: ${(props) => props.theme.bg_secondary};
     display: flex;
     padding: 0 1.2rem;
-`;
+   `;
 const NavLeft = styled.div`
     flex: 2;
     padding: 0.7rem 0;
@@ -25,6 +25,19 @@ const NavMiddle = styled.div`
     justify-content: space-between;
     align-items: center;
     flex: 1;
+    a{
+        svg{
+            transition: 0.3s;
+            &:hover{
+                fill: #86f287;
+            }
+        }
+    }
+    .active{
+        svg{
+            fill: #86f287;
+        }
+    }
 `;
 const NavRight = styled.div`
     display: flex;

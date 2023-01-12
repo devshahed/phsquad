@@ -4,8 +4,8 @@ import Posts from "../components/Posts";
 
 //styles
 const Container = styled.div`
-    flex: 2;
-    padding: 1.5rem 5rem;
+    flex: 1;
+    padding: 1.5rem 1rem;
 `;
 const Home = () => {
     return (
