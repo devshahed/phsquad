@@ -1,9 +1,14 @@
 import React from 'react'
+import styled from "react-styled-components"
+
+const Container = styled.div`
+    
+`
 
 const Profile = () => {
-  return (
-    <div>Profile</div>
-  )
+    return (
+        <Container>Profile</Container>
+    )
 }
 
-export default Profile
+export default ProfileProfileProfile
