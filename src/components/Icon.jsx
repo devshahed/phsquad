@@ -13,6 +13,7 @@ import { ReactComponent as ThreeDots } from "./assets/icons/ThreeDots.svg";
 import { ReactComponent as Heart } from "./assets/icons/Heart.svg";
 import { ReactComponent as Comment } from "./assets/icons/Comment.svg";
 import { ReactComponent as Share } from "./assets/icons/Share.svg";
+import { ReactComponent as Category } from "./assets/icons/Category.svg";
 
 const Icon = ({ name, fill }) => {
     switch (name) {
@@ -42,6 +43,8 @@ const Icon = ({ name, fill }) => {
             return <Comment fill={fill} />;
         case "share":
             return <Share fill={fill} />;
+        case "category":
+            return <Category fill={fill} />;
         case "threedots":
             return <ThreeDots fill={fill} />;
         default:

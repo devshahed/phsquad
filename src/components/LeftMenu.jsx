@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import Icon from "./Icon";
 
 //styles
 const Container = styled.div`
@@ -10,7 +11,6 @@ const Container = styled.div`
     top: 0;
     flex-direction: column;
     font-weight: 500;
-    align-items: center;
     gap: 0.7rem;
     padding: 2rem 1rem 0 1rem;
     color: ${(props) => props.theme.color};
@@ -22,9 +22,15 @@ const Container = styled.div`
         width: 100%;
         text-align: center;
         font-size: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.7rem; 
     }
     .active {
         color: ${(props) => props.theme.active};
+        svg{
+            fill: ${(props) => props.theme.active};
+        }
     }
 `;
 
@@ -32,11 +38,11 @@ const LeftMenu = () => {
     const theme = useSelector((state) => state.theme.config);
     return (
         <Container theme={theme}>
-            <NavLink to="/">All</NavLink>
-            <NavLink to="/hacking">Hacking</NavLink>
-            <NavLink to="/programming">Programming</NavLink>
-            <NavLink to="/bugbounty">Bug Bounty</NavLink>
-            <NavLink to="/ctf">CTF</NavLink>
+            <NavLink to="/"><Icon name="category" fill={theme.color} />All</NavLink>
+            <NavLink to="/hacking"><Icon name="category" fill={theme.color} />Hacking</NavLink>
+            <NavLink to="/programming"><Icon name="category" fill={theme.color} />Programming</NavLink>
+            <NavLink to="/bugbounty"><Icon name="category" fill={theme.color} />Bug Bounty</NavLink>
+            <NavLink to="/ctf"><Icon name="category" fill={theme.color} />CTF</NavLink>
         </Container>
     );
 };

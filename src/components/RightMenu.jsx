@@ -56,6 +56,9 @@ const Menu = styled.div`
     }
     .active {
         color: ${(props) => props.theme.active};
+        svg{
+            fill: ${(props) => props.theme.active};
+        }
     }
 `;
 const RightMenu = () => {
