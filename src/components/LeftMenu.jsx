@@ -35,7 +35,7 @@ const LeftMenu = () => {
             <NavLink to="/">All</NavLink>
             <NavLink to="/hacking">Hacking</NavLink>
             <NavLink to="/programming">Programming</NavLink>
-            <NavLink to="/bogbounty">Bug Bounty</NavLink>
+            <NavLink to="/bugbounty">Bug Bounty</NavLink>
             <NavLink to="/ctf">CTF</NavLink>
         </Container>
     );

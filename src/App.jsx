@@ -29,7 +29,12 @@ function App() {
                 <Main>
                     <LeftMenu />
                     <Routes>
-                        <Route path="/" element={<Home />} />
+                        <Route path="/" element={<Home />}>
+                            <Route path="hacking" element={<Home />} />
+                            <Route path="programming" element={<Home />} />
+                            <Route path="ctf" element={<Home />} />
+                            <Route path="bugbounty" element={<Home />} />
+                        </Route>
                     </Routes>
                     <RightMenu />
                 </Main>

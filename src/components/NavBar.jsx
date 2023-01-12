@@ -13,7 +13,6 @@ const Container = styled.nav`
     top: 0;
     background: ${(props) => props.theme.bg_secondary};
     display: flex;
-    border-bottom: 1px solid #7777774c;
     padding: 0 1.2rem;
 `;
 const NavLeft = styled.div`
@@ -60,7 +59,7 @@ const NavBar = () => {
                     <Icon name="theme" fill={theme.color} />
                 </div>
                 <Button type={"button"} name={"addPost"}>
-                    <Icon name="editor" />
+                    <Icon name="editor" fill={theme.bg_secondary} />
                     <span>Add Post</span>
                 </Button>
             </NavRight>

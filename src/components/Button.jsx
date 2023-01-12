@@ -17,7 +17,7 @@ const Container = styled.button`
         outline: none;
     }
     background: ${(props) => props.theme.buttons};
-    color: "black";
+    color: ${props => props.theme.bg_secondary};
     border-radius: 1.2rem;
     padding: 0.5rem 1rem;
     font-weight: 500;

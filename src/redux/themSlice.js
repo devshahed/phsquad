@@ -4,10 +4,10 @@ const initialState = {
     dark: false,
     config: {
         name: "Light",
-        bg: "#c4f7ff",
-        bg_secondary: "#e0fffb",
+        bg: "#f5f5f5",
+        bg_secondary: "#ffff",
         color: "#464646",
-        buttons: "#6dcfff",
+        buttons: "#000000",
         active: "#151515",
     },
 };
@@ -30,10 +30,10 @@ const themeSlice = createSlice({
             } else {
                 state.config = {
                     name: "Light",
-                    bg: "#c4f7ff",
-                    bg_secondary: "#e0fffb",
+                    bg: "#f5f5f5",
+                    bg_secondary: "#ffff",
                     color: "#464646",
-                    buttons: "#6dcfff",
+                    buttons: "#000000",
                     active: "#151515",
                 };
             }
