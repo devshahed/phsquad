@@ -11,6 +11,7 @@ import Logo from "./Logo";
 const Container = styled.nav`
     position: sticky;
     top: 0;
+    border-bottom: 1px solid #7777774c;
     background: ${(props) => props.theme.bg_secondary};
     display: flex;
     padding: 0 1.2rem;
