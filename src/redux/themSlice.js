@@ -4,7 +4,7 @@ const initialState = {
     dark: false,
     config: {
         name: "Light",
-        bg: "#f5f5f5",
+        bg: "#e3e3e3",
         bg_secondary: "#ffff",
         color: "#464646",
         buttons: "#000000",
@@ -30,7 +30,7 @@ const themeSlice = createSlice({
             } else {
                 state.config = {
                     name: "Light",
-                    bg: "#f5f5f5",
+                    bg: "#e3e3e3",
                     bg_secondary: "#ffff",
                     color: "#464646",
                     buttons: "#000000",

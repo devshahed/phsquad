@@ -56,7 +56,7 @@ const Menu = styled.div`
     }
     .active {
         color: ${(props) => props.theme.active};
-        svg{
+        svg {
             fill: ${(props) => props.theme.active};
         }
     }
@@ -81,7 +81,7 @@ const RightMenu = () => {
                 <Icon name="search" fill={theme.color} />
             </SearchBox>
             <Menu theme={theme}>
-                <NavLink to="/profile">
+                <NavLink to="/profile/shahed">
                     <Icon name="profile" fill={theme.color} />
                     <span>Profile</span>
                 </NavLink>

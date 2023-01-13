@@ -1,10 +1,9 @@
 import "./App.css";
 import styled from "styled-components";
 import NavBar from "./components/NavBar";
-import LeftMenu from "./components/LeftMenu";
-import RightMenu from "./components/RightMenu";
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Profile from "./pages/Profile";
 import { useSelector } from "react-redux";
 
 const Container = styled.div`
@@ -14,11 +13,6 @@ const Container = styled.div`
     background: ${({ theme }) => theme.bg};
     overflow: hidden;
 `;
-const Main = styled.main`
-    display: flex;
-    overflow-y: scroll;
-    gap: 3rem;
-`;
 
 function App() {
     const theme = useSelector((state) => state.theme.config);
@@ -26,18 +20,16 @@ function App() {
         <Container theme={theme}>
             <Router>
                 <NavBar />
-                <Main>
-                    <LeftMenu />
-                    <Routes>
-                        <Route path="/" element={<Home />}>
-                            <Route path="hacking" element={<Home />} />
-                            <Route path="programming" element={<Home />} />
-                            <Route path="ctf" element={<Home />} />
-                            <Route path="bugbounty" element={<Home />} />
-                        </Route>
-                    </Routes>
-                    <RightMenu />
-                </Main>
+                <Routes>
+                    <Route path="/">
+                        <Route index element={<Home />} />
+                        <Route
+                            path="/profile/:username"
+                            element={<Profile />}
+                        />
+                        <Route path=":category" element={<Home />} />
+                    </Route>
+                </Routes>
             </Router>
         </Container>
     );

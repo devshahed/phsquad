@@ -7,10 +7,9 @@ import Icon from "./Icon";
 const Container = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    flex: 1;
     align-items: center;
     gap: 1.3rem;
-    padding-bottom: 1.2rem;
 `;
 const PostCard = styled.div`
     padding: 1.2rem;
