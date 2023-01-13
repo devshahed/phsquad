@@ -8,9 +8,7 @@ const Container = styled.main`
     display: flex;
     overflow-y: auto;
     gap: 3rem;
-    height: 100%;
 `;
-
 const Home = () => {
     return (
         <Container>
