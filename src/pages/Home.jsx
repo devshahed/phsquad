@@ -4,7 +4,7 @@ import LeftMenu from "../components/LeftMenu";
 import RightMenu from "../components/RightMenu";
 import styled from "styled-components";
 
-const Container = styled.div`
+const Container = styled.main`
     display: flex;
     overflow-y: auto;
     gap: 3rem;
