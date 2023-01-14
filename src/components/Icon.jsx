@@ -14,6 +14,7 @@ import { ReactComponent as Heart } from "./assets/icons/Heart.svg";
 import { ReactComponent as Comment } from "./assets/icons/Comment.svg";
 import { ReactComponent as Share } from "./assets/icons/Share.svg";
 import { ReactComponent as Category } from "./assets/icons/Category.svg";
+import { ReactComponent as Admin } from "./assets/icons/Admin.svg";
 
 const Icon = ({ name, fill }) => {
     switch (name) {
@@ -45,6 +46,8 @@ const Icon = ({ name, fill }) => {
             return <Share fill={fill} />;
         case "category":
             return <Category fill={fill} />;
+        case "admin":
+            return <Admin fill={fill} />;
         case "threedots":
             return <ThreeDots fill={fill} />;
         default:
