@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Profile from "./pages/Profile";
+import Notifications from "./pages/Notifications";
 import { useSelector } from "react-redux";
 
 const Container = styled.div`
@@ -23,11 +24,16 @@ function App() {
                 <Routes>
                     <Route path="/">
                         <Route index element={<Home />} />
+                        <Route path="profile">
+                            <Route path=":username" element={<Profile />} />
+                        </Route>
                         <Route
-                            path="/profile/:username"
-                            element={<Profile />}
+                            path="/notifications"
+                            element={<Notifications />}
                         />
-                        <Route path=":category" element={<Home />} />
+                        <Route path="category">
+                            <Route path=":cat_name" element={<Home />} />
+                        </Route>
                     </Route>
                 </Routes>
             </Router>

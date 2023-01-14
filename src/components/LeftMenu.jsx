@@ -24,11 +24,11 @@ const Container = styled.div`
         font-size: 1rem;
         display: flex;
         align-items: center;
-        gap: 0.7rem; 
+        gap: 0.7rem;
     }
     .active {
         color: ${(props) => props.theme.active};
-        svg{
+        svg {
             fill: ${(props) => props.theme.active};
         }
     }
@@ -38,11 +38,26 @@ const LeftMenu = () => {
     const theme = useSelector((state) => state.theme.config);
     return (
         <Container theme={theme}>
-            <NavLink to="/"><Icon name="category" fill={theme.color} />All</NavLink>
-            <NavLink to="/hacking"><Icon name="category" fill={theme.color} />Hacking</NavLink>
-            <NavLink to="/programming"><Icon name="category" fill={theme.color} />Programming</NavLink>
-            <NavLink to="/bugbounty"><Icon name="category" fill={theme.color} />Bug Bounty</NavLink>
-            <NavLink to="/ctf"><Icon name="category" fill={theme.color} />CTF</NavLink>
+            <NavLink to="/">
+                <Icon name="category" fill={theme.color} />
+                All
+            </NavLink>
+            <NavLink to="/category/hacking">
+                <Icon name="category" fill={theme.color} />
+                Hacking
+            </NavLink>
+            <NavLink to="/category/programming">
+                <Icon name="category" fill={theme.color} />
+                Programming
+            </NavLink>
+            <NavLink to="/category/bugbounty">
+                <Icon name="category" fill={theme.color} />
+                Bug Bounty
+            </NavLink>
+            <NavLink to="/category/ctf">
+                <Icon name="category" fill={theme.color} />
+                CTF
+            </NavLink>
         </Container>
     );
 };
