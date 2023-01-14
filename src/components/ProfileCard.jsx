@@ -13,7 +13,7 @@ const Container = styled.div`
     gap: 0.4rem;
     font-weight: 500;
     padding: 2rem 1rem 0 1rem;
-    color: ${(props) => props.theme.active};
+    color: ${(props) => props.theme.color};
     overflow-y: auto;
     flex: 1;
     img {
@@ -23,6 +23,7 @@ const Container = styled.div`
         border-radius: 50%;
     }
     h2 {
+        color: ${(props) => props.theme.active};
         font-size: 1.5rem;
         margin: 0;
         display: flex;
