@@ -83,10 +83,7 @@ const Posts = () => {
                 <PostCard theme={theme}>
                     <header>
                         <Link to="/profile/shahed">
-                            <img
-                                src="https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/325135141_852343696023689_6505456416207321112_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Udk_cx4jTggAX_0nz_T&_nc_ht=scontent.fdac135-1.fna&oh=00_AfAUT2n7IAWzCx0FInxKuyuXuk1EFsQyeZ3YicIcNYbOmw&oe=63C3FA96"
-                                alt="user"
-                            />
+                            <img src="/test.jpg" alt="user" />
                             <h3>Shahedul Islam</h3>
                         </Link>
                         <div>
@@ -95,10 +92,7 @@ const Posts = () => {
                         </div>
                     </header>
                     <Content theme={theme}>
-                        <img
-                            src="https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/325135141_852343696023689_6505456416207321112_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Udk_cx4jTggAX_0nz_T&_nc_ht=scontent.fdac135-1.fna&oh=00_AfAUT2n7IAWzCx0FInxKuyuXuk1EFsQyeZ3YicIcNYbOmw&oe=63C3FA96"
-                            alt="post"
-                        />
+                        <img src="/test.jpg" alt="post" />
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Odio doloribus autem obcaecati eum facere quis
@@ -116,10 +110,7 @@ const Posts = () => {
                 <PostCard theme={theme}>
                     <header>
                         <Link to="/profile/shahed">
-                            <img
-                                src="https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/325135141_852343696023689_6505456416207321112_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Udk_cx4jTggAX_0nz_T&_nc_ht=scontent.fdac135-1.fna&oh=00_AfAUT2n7IAWzCx0FInxKuyuXuk1EFsQyeZ3YicIcNYbOmw&oe=63C3FA96"
-                                alt="user"
-                            />
+                            <img src="/test.jpg" alt="user" />
                             <h3>Shahedul Islam</h3>
                         </Link>
                         <div>
@@ -127,11 +118,8 @@ const Posts = () => {
                             <Icon name="threedots" fill={theme.active} />
                         </div>
                     </header>
-                    <Content>
-                        <img
-                            src="https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/325135141_852343696023689_6505456416207321112_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Udk_cx4jTggAX_0nz_T&_nc_ht=scontent.fdac135-1.fna&oh=00_AfAUT2n7IAWzCx0FInxKuyuXuk1EFsQyeZ3YicIcNYbOmw&oe=63C3FA96"
-                            alt="post"
-                        />
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Odio doloribus autem obcaecati eum facere quis
@@ -149,10 +137,7 @@ const Posts = () => {
                 <PostCard theme={theme}>
                     <header>
                         <Link to="/profile/shahed">
-                            <img
-                                src="https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/325135141_852343696023689_6505456416207321112_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Udk_cx4jTggAX_0nz_T&_nc_ht=scontent.fdac135-1.fna&oh=00_AfAUT2n7IAWzCx0FInxKuyuXuk1EFsQyeZ3YicIcNYbOmw&oe=63C3FA96"
-                                alt="user"
-                            />
+                            <img src="/test.jpg" alt="user" />
                             <h3>Shahedul Islam</h3>
                         </Link>
                         <div>
@@ -160,11 +145,8 @@ const Posts = () => {
                             <Icon name="threedots" fill={theme.active} />
                         </div>
                     </header>
-                    <Content>
-                        <img
-                            src="https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/325135141_852343696023689_6505456416207321112_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Udk_cx4jTggAX_0nz_T&_nc_ht=scontent.fdac135-1.fna&oh=00_AfAUT2n7IAWzCx0FInxKuyuXuk1EFsQyeZ3YicIcNYbOmw&oe=63C3FA96"
-                            alt="post"
-                        />
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Odio doloribus autem obcaecati eum facere quis
@@ -182,10 +164,7 @@ const Posts = () => {
                 <PostCard theme={theme}>
                     <header>
                         <Link to="/profile/shahed">
-                            <img
-                                src="https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/325135141_852343696023689_6505456416207321112_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Udk_cx4jTggAX_0nz_T&_nc_ht=scontent.fdac135-1.fna&oh=00_AfAUT2n7IAWzCx0FInxKuyuXuk1EFsQyeZ3YicIcNYbOmw&oe=63C3FA96"
-                                alt="user"
-                            />
+                            <img src="/test.jpg" alt="user" />
                             <h3>Shahedul Islam</h3>
                         </Link>
                         <div>
@@ -193,11 +172,8 @@ const Posts = () => {
                             <Icon name="threedots" fill={theme.active} />
                         </div>
                     </header>
-                    <Content>
-                        <img
-                            src="https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/325135141_852343696023689_6505456416207321112_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Udk_cx4jTggAX_0nz_T&_nc_ht=scontent.fdac135-1.fna&oh=00_AfAUT2n7IAWzCx0FInxKuyuXuk1EFsQyeZ3YicIcNYbOmw&oe=63C3FA96"
-                            alt="post"
-                        />
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Odio doloribus autem obcaecati eum facere quis
@@ -215,10 +191,7 @@ const Posts = () => {
                 <PostCard theme={theme}>
                     <header>
                         <Link to="/profile/shahed">
-                            <img
-                                src="https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/325135141_852343696023689_6505456416207321112_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Udk_cx4jTggAX_0nz_T&_nc_ht=scontent.fdac135-1.fna&oh=00_AfAUT2n7IAWzCx0FInxKuyuXuk1EFsQyeZ3YicIcNYbOmw&oe=63C3FA96"
-                                alt="user"
-                            />
+                            <img src="/test.jpg" alt="user" />
                             <h3>Shahedul Islam</h3>
                         </Link>
                         <div>
@@ -226,11 +199,8 @@ const Posts = () => {
                             <Icon name="threedots" fill={theme.active} />
                         </div>
                     </header>
-                    <Content>
-                        <img
-                            src="https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/325135141_852343696023689_6505456416207321112_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Udk_cx4jTggAX_0nz_T&_nc_ht=scontent.fdac135-1.fna&oh=00_AfAUT2n7IAWzCx0FInxKuyuXuk1EFsQyeZ3YicIcNYbOmw&oe=63C3FA96"
-                            alt="post"
-                        />
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Odio doloribus autem obcaecati eum facere quis
@@ -248,10 +218,7 @@ const Posts = () => {
                 <PostCard theme={theme}>
                     <header>
                         <Link to="/profile/shahed">
-                            <img
-                                src="https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/325135141_852343696023689_6505456416207321112_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Udk_cx4jTggAX_0nz_T&_nc_ht=scontent.fdac135-1.fna&oh=00_AfAUT2n7IAWzCx0FInxKuyuXuk1EFsQyeZ3YicIcNYbOmw&oe=63C3FA96"
-                                alt="user"
-                            />
+                            <img src="/test.jpg" alt="user" />
                             <h3>Shahedul Islam</h3>
                         </Link>
                         <div>
@@ -259,11 +226,8 @@ const Posts = () => {
                             <Icon name="threedots" fill={theme.active} />
                         </div>
                     </header>
-                    <Content>
-                        <img
-                            src="https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/325135141_852343696023689_6505456416207321112_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Udk_cx4jTggAX_0nz_T&_nc_ht=scontent.fdac135-1.fna&oh=00_AfAUT2n7IAWzCx0FInxKuyuXuk1EFsQyeZ3YicIcNYbOmw&oe=63C3FA96"
-                            alt="post"
-                        />
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Odio doloribus autem obcaecati eum facere quis
@@ -281,10 +245,7 @@ const Posts = () => {
                 <PostCard theme={theme}>
                     <header>
                         <Link to="/profile/shahed">
-                            <img
-                                src="https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/325135141_852343696023689_6505456416207321112_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Udk_cx4jTggAX_0nz_T&_nc_ht=scontent.fdac135-1.fna&oh=00_AfAUT2n7IAWzCx0FInxKuyuXuk1EFsQyeZ3YicIcNYbOmw&oe=63C3FA96"
-                                alt="user"
-                            />
+                            <img src="/test.jpg" alt="user" />
                             <h3>Shahedul Islam</h3>
                         </Link>
                         <div>
@@ -292,11 +253,8 @@ const Posts = () => {
                             <Icon name="threedots" fill={theme.active} />
                         </div>
                     </header>
-                    <Content>
-                        <img
-                            src="https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/325135141_852343696023689_6505456416207321112_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Udk_cx4jTggAX_0nz_T&_nc_ht=scontent.fdac135-1.fna&oh=00_AfAUT2n7IAWzCx0FInxKuyuXuk1EFsQyeZ3YicIcNYbOmw&oe=63C3FA96"
-                            alt="post"
-                        />
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Odio doloribus autem obcaecati eum facere quis
@@ -314,10 +272,7 @@ const Posts = () => {
                 <PostCard theme={theme}>
                     <header>
                         <Link to="/profile/shahed">
-                            <img
-                                src="https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/325135141_852343696023689_6505456416207321112_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Udk_cx4jTggAX_0nz_T&_nc_ht=scontent.fdac135-1.fna&oh=00_AfAUT2n7IAWzCx0FInxKuyuXuk1EFsQyeZ3YicIcNYbOmw&oe=63C3FA96"
-                                alt="user"
-                            />
+                            <img src="/test.jpg" alt="user" />
                             <h3>Shahedul Islam</h3>
                         </Link>
                         <div>
@@ -325,11 +280,467 @@ const Posts = () => {
                             <Icon name="threedots" fill={theme.active} />
                         </div>
                     </header>
-                    <Content>
-                        <img
-                            src="https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/325135141_852343696023689_6505456416207321112_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Udk_cx4jTggAX_0nz_T&_nc_ht=scontent.fdac135-1.fna&oh=00_AfAUT2n7IAWzCx0FInxKuyuXuk1EFsQyeZ3YicIcNYbOmw&oe=63C3FA96"
-                            alt="post"
-                        />
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio doloribus autem obcaecati eum facere quis
+                            officia velit nostrum odit..
+                            <Link to="/post/12">Read more</Link>
+                        </p>
+                    </Content>
+                    <hr />
+                    <footer>
+                        <Icon name="heart" fill={theme.active} />
+                        <Icon name="comment" fill={theme.active} />
+                        <Icon name="share" fill={theme.active} />
+                    </footer>
+                </PostCard>
+                <PostCard theme={theme}>
+                    <header>
+                        <Link to="/profile/shahed">
+                            <img src="/test.jpg" alt="user" />
+                            <h3>Shahedul Islam</h3>
+                        </Link>
+                        <div>
+                            <span>2000 years ago</span>
+                            <Icon name="threedots" fill={theme.active} />
+                        </div>
+                    </header>
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio doloribus autem obcaecati eum facere quis
+                            officia velit nostrum odit..
+                            <Link to="/post/12">Read more</Link>
+                        </p>
+                    </Content>
+                    <hr />
+                    <footer>
+                        <Icon name="heart" fill={theme.active} />
+                        <Icon name="comment" fill={theme.active} />
+                        <Icon name="share" fill={theme.active} />
+                    </footer>
+                </PostCard>
+                <PostCard theme={theme}>
+                    <header>
+                        <Link to="/profile/shahed">
+                            <img src="/test.jpg" alt="user" />
+                            <h3>Shahedul Islam</h3>
+                        </Link>
+                        <div>
+                            <span>2000 years ago</span>
+                            <Icon name="threedots" fill={theme.active} />
+                        </div>
+                    </header>
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio doloribus autem obcaecati eum facere quis
+                            officia velit nostrum odit..
+                            <Link to="/post/12">Read more</Link>
+                        </p>
+                    </Content>
+                    <hr />
+                    <footer>
+                        <Icon name="heart" fill={theme.active} />
+                        <Icon name="comment" fill={theme.active} />
+                        <Icon name="share" fill={theme.active} />
+                    </footer>
+                </PostCard>
+                <PostCard theme={theme}>
+                    <header>
+                        <Link to="/profile/shahed">
+                            <img src="/test.jpg" alt="user" />
+                            <h3>Shahedul Islam</h3>
+                        </Link>
+                        <div>
+                            <span>2000 years ago</span>
+                            <Icon name="threedots" fill={theme.active} />
+                        </div>
+                    </header>
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio doloribus autem obcaecati eum facere quis
+                            officia velit nostrum odit..
+                            <Link to="/post/12">Read more</Link>
+                        </p>
+                    </Content>
+                    <hr />
+                    <footer>
+                        <Icon name="heart" fill={theme.active} />
+                        <Icon name="comment" fill={theme.active} />
+                        <Icon name="share" fill={theme.active} />
+                    </footer>
+                </PostCard>
+                <PostCard theme={theme}>
+                    <header>
+                        <Link to="/profile/shahed">
+                            <img src="/test.jpg" alt="user" />
+                            <h3>Shahedul Islam</h3>
+                        </Link>
+                        <div>
+                            <span>2000 years ago</span>
+                            <Icon name="threedots" fill={theme.active} />
+                        </div>
+                    </header>
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio doloribus autem obcaecati eum facere quis
+                            officia velit nostrum odit..
+                            <Link to="/post/12">Read more</Link>
+                        </p>
+                    </Content>
+                    <hr />
+                    <footer>
+                        <Icon name="heart" fill={theme.active} />
+                        <Icon name="comment" fill={theme.active} />
+                        <Icon name="share" fill={theme.active} />
+                    </footer>
+                </PostCard>
+                <PostCard theme={theme}>
+                    <header>
+                        <Link to="/profile/shahed">
+                            <img src="/test.jpg" alt="user" />
+                            <h3>Shahedul Islam</h3>
+                        </Link>
+                        <div>
+                            <span>2000 years ago</span>
+                            <Icon name="threedots" fill={theme.active} />
+                        </div>
+                    </header>
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio doloribus autem obcaecati eum facere quis
+                            officia velit nostrum odit..
+                            <Link to="/post/12">Read more</Link>
+                        </p>
+                    </Content>
+                    <hr />
+                    <footer>
+                        <Icon name="heart" fill={theme.active} />
+                        <Icon name="comment" fill={theme.active} />
+                        <Icon name="share" fill={theme.active} />
+                    </footer>
+                </PostCard>
+                <PostCard theme={theme}>
+                    <header>
+                        <Link to="/profile/shahed">
+                            <img src="/test.jpg" alt="user" />
+                            <h3>Shahedul Islam</h3>
+                        </Link>
+                        <div>
+                            <span>2000 years ago</span>
+                            <Icon name="threedots" fill={theme.active} />
+                        </div>
+                    </header>
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio doloribus autem obcaecati eum facere quis
+                            officia velit nostrum odit..
+                            <Link to="/post/12">Read more</Link>
+                        </p>
+                    </Content>
+                    <hr />
+                    <footer>
+                        <Icon name="heart" fill={theme.active} />
+                        <Icon name="comment" fill={theme.active} />
+                        <Icon name="share" fill={theme.active} />
+                    </footer>
+                </PostCard>
+                <PostCard theme={theme}>
+                    <header>
+                        <Link to="/profile/shahed">
+                            <img src="/test.jpg" alt="user" />
+                            <h3>Shahedul Islam</h3>
+                        </Link>
+                        <div>
+                            <span>2000 years ago</span>
+                            <Icon name="threedots" fill={theme.active} />
+                        </div>
+                    </header>
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio doloribus autem obcaecati eum facere quis
+                            officia velit nostrum odit..
+                            <Link to="/post/12">Read more</Link>
+                        </p>
+                    </Content>
+                    <hr />
+                    <footer>
+                        <Icon name="heart" fill={theme.active} />
+                        <Icon name="comment" fill={theme.active} />
+                        <Icon name="share" fill={theme.active} />
+                    </footer>
+                </PostCard>
+                <PostCard theme={theme}>
+                    <header>
+                        <Link to="/profile/shahed">
+                            <img src="/test.jpg" alt="user" />
+                            <h3>Shahedul Islam</h3>
+                        </Link>
+                        <div>
+                            <span>2000 years ago</span>
+                            <Icon name="threedots" fill={theme.active} />
+                        </div>
+                    </header>
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio doloribus autem obcaecati eum facere quis
+                            officia velit nostrum odit..
+                            <Link to="/post/12">Read more</Link>
+                        </p>
+                    </Content>
+                    <hr />
+                    <footer>
+                        <Icon name="heart" fill={theme.active} />
+                        <Icon name="comment" fill={theme.active} />
+                        <Icon name="share" fill={theme.active} />
+                    </footer>
+                </PostCard>
+                <PostCard theme={theme}>
+                    <header>
+                        <Link to="/profile/shahed">
+                            <img src="/test.jpg" alt="user" />
+                            <h3>Shahedul Islam</h3>
+                        </Link>
+                        <div>
+                            <span>2000 years ago</span>
+                            <Icon name="threedots" fill={theme.active} />
+                        </div>
+                    </header>
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio doloribus autem obcaecati eum facere quis
+                            officia velit nostrum odit..
+                            <Link to="/post/12">Read more</Link>
+                        </p>
+                    </Content>
+                    <hr />
+                    <footer>
+                        <Icon name="heart" fill={theme.active} />
+                        <Icon name="comment" fill={theme.active} />
+                        <Icon name="share" fill={theme.active} />
+                    </footer>
+                </PostCard>
+                <PostCard theme={theme}>
+                    <header>
+                        <Link to="/profile/shahed">
+                            <img src="/test.jpg" alt="user" />
+                            <h3>Shahedul Islam</h3>
+                        </Link>
+                        <div>
+                            <span>2000 years ago</span>
+                            <Icon name="threedots" fill={theme.active} />
+                        </div>
+                    </header>
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio doloribus autem obcaecati eum facere quis
+                            officia velit nostrum odit..
+                            <Link to="/post/12">Read more</Link>
+                        </p>
+                    </Content>
+                    <hr />
+                    <footer>
+                        <Icon name="heart" fill={theme.active} />
+                        <Icon name="comment" fill={theme.active} />
+                        <Icon name="share" fill={theme.active} />
+                    </footer>
+                </PostCard>
+                <PostCard theme={theme}>
+                    <header>
+                        <Link to="/profile/shahed">
+                            <img src="/test.jpg" alt="user" />
+                            <h3>Shahedul Islam</h3>
+                        </Link>
+                        <div>
+                            <span>2000 years ago</span>
+                            <Icon name="threedots" fill={theme.active} />
+                        </div>
+                    </header>
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio doloribus autem obcaecati eum facere quis
+                            officia velit nostrum odit..
+                            <Link to="/post/12">Read more</Link>
+                        </p>
+                    </Content>
+                    <hr />
+                    <footer>
+                        <Icon name="heart" fill={theme.active} />
+                        <Icon name="comment" fill={theme.active} />
+                        <Icon name="share" fill={theme.active} />
+                    </footer>
+                </PostCard>
+                <PostCard theme={theme}>
+                    <header>
+                        <Link to="/profile/shahed">
+                            <img src="/test.jpg" alt="user" />
+                            <h3>Shahedul Islam</h3>
+                        </Link>
+                        <div>
+                            <span>2000 years ago</span>
+                            <Icon name="threedots" fill={theme.active} />
+                        </div>
+                    </header>
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio doloribus autem obcaecati eum facere quis
+                            officia velit nostrum odit..
+                            <Link to="/post/12">Read more</Link>
+                        </p>
+                    </Content>
+                    <hr />
+                    <footer>
+                        <Icon name="heart" fill={theme.active} />
+                        <Icon name="comment" fill={theme.active} />
+                        <Icon name="share" fill={theme.active} />
+                    </footer>
+                </PostCard>
+                <PostCard theme={theme}>
+                    <header>
+                        <Link to="/profile/shahed">
+                            <img src="/test.jpg" alt="user" />
+                            <h3>Shahedul Islam</h3>
+                        </Link>
+                        <div>
+                            <span>2000 years ago</span>
+                            <Icon name="threedots" fill={theme.active} />
+                        </div>
+                    </header>
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio doloribus autem obcaecati eum facere quis
+                            officia velit nostrum odit..
+                            <Link to="/post/12">Read more</Link>
+                        </p>
+                    </Content>
+                    <hr />
+                    <footer>
+                        <Icon name="heart" fill={theme.active} />
+                        <Icon name="comment" fill={theme.active} />
+                        <Icon name="share" fill={theme.active} />
+                    </footer>
+                </PostCard>
+                <PostCard theme={theme}>
+                    <header>
+                        <Link to="/profile/shahed">
+                            <img src="/test.jpg" alt="user" />
+                            <h3>Shahedul Islam</h3>
+                        </Link>
+                        <div>
+                            <span>2000 years ago</span>
+                            <Icon name="threedots" fill={theme.active} />
+                        </div>
+                    </header>
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio doloribus autem obcaecati eum facere quis
+                            officia velit nostrum odit..
+                            <Link to="/post/12">Read more</Link>
+                        </p>
+                    </Content>
+                    <hr />
+                    <footer>
+                        <Icon name="heart" fill={theme.active} />
+                        <Icon name="comment" fill={theme.active} />
+                        <Icon name="share" fill={theme.active} />
+                    </footer>
+                </PostCard>
+                <PostCard theme={theme}>
+                    <header>
+                        <Link to="/profile/shahed">
+                            <img src="/test.jpg" alt="user" />
+                            <h3>Shahedul Islam</h3>
+                        </Link>
+                        <div>
+                            <span>2000 years ago</span>
+                            <Icon name="threedots" fill={theme.active} />
+                        </div>
+                    </header>
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio doloribus autem obcaecati eum facere quis
+                            officia velit nostrum odit..
+                            <Link to="/post/12">Read more</Link>
+                        </p>
+                    </Content>
+                    <hr />
+                    <footer>
+                        <Icon name="heart" fill={theme.active} />
+                        <Icon name="comment" fill={theme.active} />
+                        <Icon name="share" fill={theme.active} />
+                    </footer>
+                </PostCard>
+                <PostCard theme={theme}>
+                    <header>
+                        <Link to="/profile/shahed">
+                            <img src="/test.jpg" alt="user" />
+                            <h3>Shahedul Islam</h3>
+                        </Link>
+                        <div>
+                            <span>2000 years ago</span>
+                            <Icon name="threedots" fill={theme.active} />
+                        </div>
+                    </header>
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio doloribus autem obcaecati eum facere quis
+                            officia velit nostrum odit..
+                            <Link to="/post/12">Read more</Link>
+                        </p>
+                    </Content>
+                    <hr />
+                    <footer>
+                        <Icon name="heart" fill={theme.active} />
+                        <Icon name="comment" fill={theme.active} />
+                        <Icon name="share" fill={theme.active} />
+                    </footer>
+                </PostCard>
+                <PostCard theme={theme}>
+                    <header>
+                        <Link to="/profile/shahed">
+                            <img src="/test.jpg" alt="user" />
+                            <h3>Shahedul Islam</h3>
+                        </Link>
+                        <div>
+                            <span>2000 years ago</span>
+                            <Icon name="threedots" fill={theme.active} />
+                        </div>
+                    </header>
+                    <Content theme={theme}>
+                        <img src="/test.jpg" alt="post" />
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Odio doloribus autem obcaecati eum facere quis

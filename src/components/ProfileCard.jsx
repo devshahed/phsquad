@@ -40,10 +40,7 @@ const ProfileCard = () => {
     const theme = useSelector((state) => state.theme.config);
     return (
         <Container theme={theme}>
-            <img
-                src="https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/325135141_852343696023689_6505456416207321112_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Udk_cx4jTggAX_0nz_T&_nc_ht=scontent.fdac135-1.fna&oh=00_AfAUT2n7IAWzCx0FInxKuyuXuk1EFsQyeZ3YicIcNYbOmw&oe=63C3FA96"
-                alt="user"
-            />
+            <img src="/test.jpg" alt="user" />
             <h2>
                 Shahedul Islam
                 <span title="admin">

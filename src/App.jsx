@@ -37,7 +37,18 @@ function App() {
                         </Route>
                         <Route path="/tools">
                             <Route index element={<Tools />} />
+                            <Route path=":category" element={<Tools />} />
                         </Route>
+                        <Route
+                            path="*"
+                            element={
+                                <div>
+                                    <h1 style={{ color: "white" }}>
+                                        This page is under maintenance...
+                                    </h1>
+                                </div>
+                            }
+                        />
                     </Route>
                 </Routes>
             </Router>
