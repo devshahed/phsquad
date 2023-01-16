@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Profile from "./pages/Profile";
 import Notifications from "./pages/Notifications";
 import { useSelector } from "react-redux";
+import Tools from "./pages/Tools";
 
 const Container = styled.div`
     display: flex;
@@ -28,11 +29,14 @@ function App() {
                             <Route path=":username" element={<Profile />} />
                         </Route>
                         <Route
-                            path="/notifications"
+                            path="notifications"
                             element={<Notifications />}
                         />
                         <Route path="category">
                             <Route path=":cat_name" element={<Home />} />
+                        </Route>
+                        <Route path="/tools">
+                            <Route index element={<Tools />} />
                         </Route>
                     </Route>
                 </Routes>
