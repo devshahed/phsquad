@@ -7,6 +7,7 @@ import Profile from "./pages/Profile";
 import Notifications from "./pages/Notifications";
 import { useSelector } from "react-redux";
 import Tools from "./pages/Tools";
+import Users from "./pages/Users";
 
 const Container = styled.div`
     display: flex;
@@ -49,6 +50,9 @@ function App() {
                                 </div>
                             }
                         />
+                    </Route>
+                    <Route path="/users">
+                        <Route path=":userType" element={<Users />} />
                     </Route>
                 </Routes>
             </Router>

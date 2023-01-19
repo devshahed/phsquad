@@ -61,7 +61,7 @@ const NavBar = () => {
                 <NavLink to="/">
                     <Icon name="home" fill={theme.color} />
                 </NavLink>
-                <NavLink to="/users">
+                <NavLink to="/users/all">
                     <Icon name="user" fill={theme.color} />
                 </NavLink>
                 <NavLink to="/tools">
